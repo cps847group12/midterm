@@ -5,6 +5,6 @@ install:
 - pip install coverage
 script:
 - python -m unittest discover -v
-- coverage run test.py
+- coverage run Test.py
 after_success:
 - codecov --token=d5dd9d90-a174-4dd5-b36a-f58246ed5f5c
