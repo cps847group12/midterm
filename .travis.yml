@@ -14,5 +14,6 @@ deploy:
   secret_access_key: KNzNjuJxLRJdHPq5dXMv41170N7tgDUEt/5R29c7
   bucket: "cps847group12"
   skip_cleanup: true
+  region: ca-central-1
   local_dir: html
   
