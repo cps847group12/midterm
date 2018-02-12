@@ -10,7 +10,7 @@ after_success:
 - codecov --token=d5dd9d90-a174-4dd5-b36a-f58246ed5f5c
 deploy:
   provider: s3
-  access_key_id: AKIAIUH6SEFFRGKJZGBQ
+  access_key_id: $awsid
   secret_access_key: $awskey
   bucket: "cps847group12"
   skip_cleanup: true
