@@ -11,7 +11,7 @@ after_success:
 deploy:
   provider: s3
   access_key_id: AKIAIUH6SEFFRGKJZGBQ
-  secret_access_key: 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
+  secret_access_key: $awskey
   bucket: "cps847group12"
   skip_cleanup: true
   region: ca-central-1
