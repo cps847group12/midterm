@@ -7,7 +7,7 @@ script:
 - python -m unittest discover -v
 - coverage run Test.py
 after_success:
-- codecov --token=d5dd9d90-a174-4dd5-b36a-f58246ed5f5c
+- codecov --token=6e731c56-8707-4b85-a106-8cf19d01c6b1
 deploy:
   provider: s3
   access_key_id: $awsid
