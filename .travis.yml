@@ -12,7 +12,7 @@ deploy:
   provider: s3
   access_key_id: $awsid
   secret_access_key: $awskey
-  bucket: "cps847group12"
+  bucket: "cps847midterm"
   skip_cleanup: true
   region: ca-central-1
   local_dir: html
